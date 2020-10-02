@@ -316,7 +316,7 @@ define(["require", "exports", "./mod"], function (require, exports, mod_1) {
 ##### CommonJS / Node SimpleModule.js
 
 ```js
-var mod_1 = require("./mod");
+var mod_1 = require("./mod.js");
 exports.t = mod_1.something + 1;
 ```
 
@@ -358,7 +358,7 @@ System.register(["./mod"], function (exports_1) {
 ##### Native ECMAScript 2015 modules SimpleModule.js
 
 ```js
-import { something } from "./mod";
+import { something } from "./mod.js";
 export var t = something + 1;
 ```
 
